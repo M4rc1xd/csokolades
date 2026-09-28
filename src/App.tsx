@@ -1,11 +1,9 @@
-import { useState } from 'react'
 import Fejlec from './components/fejlec.tsx'
 import Lablec from './components/lablec.tsx'
 import ChocolateCard from './components/ChocolateCard.tsx'
 // import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>

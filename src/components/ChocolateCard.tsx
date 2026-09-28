@@ -7,12 +7,12 @@ interface ChocolateCardProps {
 }
 
 export default function ChocolateCard(props: ChocolateCardProps){
-    return 
+    return (
         <>
         <p>Csoki neve: {props.name}</p>
         <p>Gyártó: {props.brand}</p>
         <p>Csokoládé százaléka: {props.cocoaPercentage}%</p>
         <p>Összetevők: {props.ingredients.join(", ")}</p>
         </>
-    
+    )
 }
