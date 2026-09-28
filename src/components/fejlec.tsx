@@ -1,7 +1,7 @@
 let fejlec = () => {
     return (
         <div>
-            <header><h1>Csokoládé</h1></header>
+            <header id="fejlec"><h1>Csokoládé</h1></header>
         </div>
     )
 }
